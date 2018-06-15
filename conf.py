@@ -502,6 +502,14 @@ FRONT_INDEX_HEADER = {
 # list of links.
 # ARCHIVES_ARE_INDEXES = False
 
+# Use date-based path when creating posts?
+# Can be enabled on a per-post basis with `nikola new_post -d`.
+NEW_POST_DATE_PATH = True
+
+# What format to use when creating posts with date paths?
+# Default is '%Y/%m/%d', other possibilities include '%Y' or '%Y/%m'.
+NEW_POST_DATE_PATH_FORMAT = '%Y/%m'
+
 # URLs to other posts/pages can take 3 forms:
 # rel_path: a relative URL to the current page/post (default)
 # full_path: a URL with the full path from the root
@@ -828,14 +836,14 @@ FEED_LINKS_APPEND_QUERY = False
 
 # A HTML fragment describing the license, for the sidebar.
 # (translatable)
-LICENSE = ""
+# LICENSE = ""
 # I recommend using the Creative Commons' wizard:
 # https://creativecommons.org/choose/
-# LICENSE = """
-# <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-# <img alt="Creative Commons License BY-NC-SA"
-# style="border-width:0; margin-bottom:12px;"
-# src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>"""
+LICENSE = """
+<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+<img alt="Creative Commons License BY-NC-SA"
+style="border-width:0; margin-bottom:12px;"
+src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>"""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
@@ -868,7 +876,7 @@ CONTENT_FOOTER_FORMATS = {
 # systems.  The following comment systems are supported by Nikola:
 #   disqus, facebook, googleplus, intensedebate, isso, livefyre, muut
 # You can leave this option blank to disable comments.
-#COMMENT_SYSTEM = "disqus"
+COMMENT_SYSTEM = ""
 # And you also need to add your COMMENT_SYSTEM_ID which
 # depends on what comment system you use. The default is
 # "nikolademo" which is a test account for Disqus. More information
