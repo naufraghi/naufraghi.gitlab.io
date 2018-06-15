@@ -19,6 +19,8 @@ Immaginiamoci quindi programmatori Rust non navigati, stiamo scrivendo la nostra
 
 Una prima implementazione potrebbe essere qualcosa del tipo: 
 
+<!-- TEASER_END -->
+
 ```rust
 extern crate chrono;
 use chrono::prelude::*;

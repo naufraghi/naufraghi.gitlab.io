@@ -1,8 +1,11 @@
----
-title: Simple Rust Pipeline on Bitbucket
-date: '2018-05-04 16:23:00 EST'
-
----
+<!--
+.. title: Simple Rust Pipeline on Bitbucket
+.. slug: simple-rust-pipeline-on-bitbucket
+.. date: 2018-05-04 22:54:44 UTC
+.. tags: rust, CI
+.. category: programming
+.. type: text
+-->
 
 [Bitbucket](https://bitbucket.org/) offers a builtin execution pipeline (Docker based), here is a minimal configuration to have your Rust test running:
 
