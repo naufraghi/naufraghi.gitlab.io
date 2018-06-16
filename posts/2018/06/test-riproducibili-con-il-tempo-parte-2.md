@@ -177,7 +177,7 @@ Verrebbe voglia di scrivere un test per verificare qualche corruzione della memo
 
 Un ringraziamento al gruppetto di Rustiti anonimi di [@develer](https://twitter.com/develer) per la review.
 
-Grazie per la lettura, se questa mini serie vi piaciuta fatemelo sapere, potrebbe essere lo spunto per scrivere qualcos'altro, e non esitate a contattarmi (qua o [@naufraghi](https://twitter.com/naufraghi) su twitter) per segnalare errori od omissioni! 
+Grazie per la lettura, se questa mini serie vi piaciuta fatemelo sapere, potrebbe essere lo spunto per scrivere qualcos'altro, e non esitate a contattarmi ([@naufraghi](https://twitter.com/naufraghi) su twitter) per segnalare errori od omissioni! 
 
 [^1]: Vedi [`const` and `static`](https://doc.rust-lang.org/book/first-edition/const-and-static.html)       nella prima edizione del Rust Book oppure [Accessing or Modifying a Mutable Static       Variable](https://doc.rust-lang.org/book/second-edition/ch19-01-unsafe-rust.html#accessing-or-modifying-a-mutable-static-variable)       nella seconda edizione del libro o anche [Static       items](https://doc.rust-lang.org/reference/items/static-items.html) nella reference del linguaggio. 
 
