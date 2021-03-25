@@ -20,7 +20,7 @@ pyinotify==0.9.6
 PyRSS2Gen==1.1
 python-dateutil==2.7.5
 pytz==2018.7
-PyYAML==3.13
+PyYAML==5.4
 requests==2.20.0
 six==1.11.0
 Unidecode==1.0.22
